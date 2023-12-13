@@ -22,7 +22,7 @@ const Social = () => {
                 <ul className="contact-social-links">
                   <li className="contact-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/aadhi220"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -32,7 +32,7 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://twitter.com/adithyan220"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -42,7 +42,7 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/adithyan-anil/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -50,7 +50,7 @@ const Social = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="contact-icons">
+                  {/* <li className="contact-icons">
                     <a
                       href="hhttps://leetcode.com/19sajib/"
                       target="_blank"
@@ -59,7 +59,7 @@ const Social = () => {
                     >
                       <SiLeetcode />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </Col>
             </Row>

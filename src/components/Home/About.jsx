@@ -21,21 +21,21 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Adithyan Anil </span>
+                 and I'm from <span className="yellow"> Kottayam, Kerala.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I have just completed my Bachelor's in Computer Applications in 2023 and am presently engaged in an internship focused on the <b className="yellow">MEA(R)N Stack</b> at Luminar Technolab in Kochi
                 <br />
                 <br />
                   As a
                   <b className="yellow"> Full-Stack </b>developer,  
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
-                  <br />I am proficient in
+                  {/* <br />I am proficient in
                     <b className="yellow"> Javascript, </b>
                     as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                  <b className="yellow"> GraphQL, and Solidity.</b> */}
                   <br />
                   <br />
                   I have a passion for working
@@ -77,7 +77,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/aadhi220"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -88,7 +88,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://twitter.com/adithyan220"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -99,7 +99,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/adithyan-anil/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -108,7 +108,7 @@ const About = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="social-icons">
+                  {/* <li className="social-icons">
                     <a
                       href="https://leetcode.com/19sajib/"
                       target="_blank"
@@ -118,7 +118,7 @@ const About = () => {
                     >
                       <SiLeetcode />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </Col>
             </Row>

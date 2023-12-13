@@ -17,33 +17,31 @@ const Contact = () => {
     }
 
     const sendEmail = (e) => {
-    e.preventDefault();
-    
-    if(!formData.from_name || !formData.reply_to ||!formData.message){
-      setNotDone(true)
-    } else {
-      
-      //  Please use your own credentials from emailjs or i will recive your email
-      
-    emailjs
-      .sendForm(
-        "service_niilndo",
-        "template_6z5idye",
-        form.current,
-        "VOBt6Akm1LhI5CZG-"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    }
-    };
-    
+      e.preventDefault();
+  
+      if (!formData.from_name || !formData.reply_to || !formData.message) {
+          setNotDone(true);
+      } else {
+          // Please replace 'your_user_id' with your actual user ID
+          emailjs
+              .sendForm(
+                  "service_p2ssigc",
+                  "template_fzq7br6",
+                  form.current,
+                  "tSoZ3O3ZAoyVEc_nD"
+              )
+              .then(
+                  (result) => {
+                      console.log(result.text);
+                      setDone(true);
+                  },
+                  (error) => {
+                      console.log(error.text);
+                  }
+              );
+      }
+  };
+  
 
     return(
         <Container style={{paddingTop: '50px'}} >
