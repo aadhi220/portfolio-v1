@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
-import krypto from "../assets/projects/krypto.png";
-import kickstart from "../assets/projects/kickstart.png";
+
+import ratelab from "../assets/projects/ratelab.png";
 
 const Projects = () => {
   return (
@@ -22,15 +19,16 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lift}
+              imgPath={ratelab}
               isBlog={false}
-              title="Lift-Buddy"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              title="RateLab CMS"
+              // description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
+              ghLink="https://github.com/aadhi220/Mern-Blog-CMS.git"
+              demoLink="https://ratelab-server.onrender.com"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={project}
               isBlog={false}
@@ -79,7 +77,7 @@ const Projects = () => {
               description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
               ghLink="https://github.com/19sajib/Solidity-Kickstart"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
