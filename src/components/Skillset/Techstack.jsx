@@ -8,8 +8,6 @@ import {
 } from "react-icons/di";
 import {
   SiMaterialui,
-  SiGraphql,
-  SiSolidity,
   SiRedux,
   SiMongodb,
   SiHtml5,
@@ -22,8 +20,8 @@ import {
 
 const Techstack = () => {
   return (
-<Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-  <Col xs={4} md={2} className="tech-icons">
+<Row style={{ justifyContent: "center", paddingBottom: "50px",scale:''  }}>
+  <Col xs={4} md={2}  className="tech-icons">
     <a href="https://en.wikipedia.org/wiki/HTML" style={{ textDecoration: "none", color: "#f06529" }} target="_blank" rel="noopener noreferrer">
       <SiHtml5 />
     </a>
