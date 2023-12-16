@@ -4,7 +4,7 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 
 import ratelab from "../assets/projects/ezgif.com-speed.gif";
-
+import googleDocs from '../assets/projects/docsClone.png'
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -30,6 +30,23 @@ const Projects = () => {
               tech="React , Node.js , Express , MongoDB"
             />
           </Col>
+
+          <Col md={12}  className="project-card">
+            <ProjectCard
+              imgPath={googleDocs}
+              isBlog={false}
+              title="Google Docs Clone"
+              ghLink="https://github.com/aadhi220/doc-app-firebase.git"
+              description="This project involves replicating the user interface and key functionalities of Google Docs, incorporating elements such as secure login, Google signup, and the integration of React Quill as the text editor..."
+            
+              demoLink="https://google-docsclone-v.vercel.app/"
+              demoVideo="https://www.youtube.com/watch?v=CEVdwLveHRk"
+              tech="React ,Firebase ,Tailwind ,MaterialUI"
+            />
+          </Col>
+     
+
+
      
         </Row>
       </Container>
