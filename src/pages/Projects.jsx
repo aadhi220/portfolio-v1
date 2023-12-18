@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-
+import projectShowcase from '../assets/projects/projectShowcase.png'
 import ratelab from "../assets/projects/ezgif.com-speed.gif";
 import googleDocs from '../assets/projects/docsClone.png'
 const Projects = () => {
@@ -27,7 +27,7 @@ const Projects = () => {
               note=" The demoLink will take some time to start up the server."
               demoLink="https://ratelab-server.onrender.com"
               demoVideo="https://youtu.be/S8lEzEZzfl0"
-              tech="React , Node.js , Express , MongoDB"
+              tech="React , Node.js , Express , MongoDB "
             />
           </Col>
 
@@ -45,6 +45,19 @@ const Projects = () => {
             />
           </Col>
      
+          <Col md={12}  className="project-card">
+            <ProjectCard
+              imgPath={projectShowcase}
+              isBlog={false}
+              title="Project Showcase (Project Management System)"
+              ghLink="https://github.com/aadhi220/project-showcase-mern.git"
+              description="A centralized hub for sharing projects.User dashboard with CRUD Operations on user projects and profile.Secure authentication using JWT tokens Search function based on author name & languages"
+            
+              demoLink="http://project-showcase.onrender.com"
+              demoVideo="https://www.youtube.com/watch?v=qul7YJuRCOw"
+              tech="React , Node.js , Express , MongoDB"
+            />
+          </Col>
 
 
      
